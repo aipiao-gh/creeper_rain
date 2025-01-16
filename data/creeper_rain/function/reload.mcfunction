@@ -11,6 +11,8 @@ data modify storage creeper_rain distance set value "20"
 scoreboard players set set_count creeper_rain 10
 #默认生成间隔
 scoreboard players set set_interval creeper_rain 10
+#默认引爆时间
+data modify storage creeper_rain time set value "30"
 #预填充x,z的值
 data modify storage creeper_rain x set value "0"
 data modify storage creeper_rain z set value "0"

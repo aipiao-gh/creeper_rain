@@ -15,6 +15,7 @@ Creeper 落到地上会引爆! (即使落到水中)
 |Creeper 的生成高度    |玩家 Y 轴+20|
 |Creeper 的生成半径    |20格|
 |Creeper 的下落速度    |1.2|
+|Creeper 落地之后的引爆时间|30tick(1.5s)|
 
 ## 使用方法
 
