@@ -1,14 +1,27 @@
-# creeper_rain
-[minecraft数据包]creeper雨  
-请在世界生成时安装该数据包  
-若中途安装请手动输入/reload  
-使用/function creeper_rain:menu/menu 呼出菜单  
-# 数据包效果
-产生源源不断的creeper雨  
-creeper落地或进入液体中会引爆  
-# 可调参数
-单次生成的creeper数量  
-生成creeper的时间间隔  
-creeper的生成高度  
-creeper的生成半径  
-creeper的下落速度  
+<h1 align="center">Creeper Rain</h1>
+
+<h3 align=center>这是一个Minecraft数据包</h3>
+
+使天上一直降下 Creeper 雨!
+
+Creeper 落到地上会引爆! (即使落到水中)  
+
+## 可调参数
+
+|参数|默认值|
+|:--|:--|
+|单次生成的 Creeper 数量 |10个|
+|生成 Creeper 的时间间隔 |0.5s|
+|Creeper 的生成高度    |玩家 Y 轴+20|
+|Creeper 的生成半径    |20格|
+|Creeper 的下落速度    |1.2|
+
+## 使用方法
+
+1. 下载最新的构建
+2. 将 `数据包` 放入 `游戏根目录/saves/datapacks`
+3. 进入世界,使用指令 `/datapack list` ( 建议同时使用 `/gamerule sendCommandFeedback false` 来关闭命令反馈以获得更好的体验 )
+4. 使用 `/datapack enable "file/creeper_rain.zip"`
+
+## 注意
+该数据包低支持 `1.20.2`
