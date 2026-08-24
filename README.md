@@ -4,7 +4,7 @@
 
 使天上一直降下 Creeper 雨!
 
-Creeper 落到地上会引爆! (即使落到水中)  
+Creeper 落到地上会引爆!  
 
 ## 可调参数
 
@@ -24,4 +24,4 @@ Creeper 落到地上会引爆! (即使落到水中)
 3. 进入世界,使用指令 `/reload` ( 建议同时使用 `/gamerule sendCommandFeedback false` 来关闭命令反馈以获得更好的体验 )
 
 ## 注意
-该数据包用于 `Minecraft 1.21`
+该数据包用于 `Minecraft 1.21.11 - 26.1`
